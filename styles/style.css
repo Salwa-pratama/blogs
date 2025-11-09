@@ -1,6 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "poppins";
   scroll-behavior: smooth;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 /* variabel Reusable */
 :root {
@@ -81,9 +95,8 @@ body {
 .container-pagination ul {
   list-style: none;
   justify-items: center;
-
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
   display: flex;
 }
 
@@ -316,7 +329,10 @@ footer {
 .content2,
 .content3,
 .content4 {
-  width: 250px;
+  width: 40%;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
 }
 
 .content2,
@@ -529,6 +545,9 @@ footer {
     align-items: center;
     padding: 2px 10px 2px 10px;
     margin: 20px 15px 20px 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
   }
   .nav-container {
     display: none;
@@ -608,9 +627,76 @@ footer {
 
   /* Main hero home section */
   .hero-card-home .title h1 {
-    font-size: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .hero-card-home .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-card-home .title .descriptions {
+    font-size: 10px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .hero-card-home .title .descriptions p {
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
   }
   .hero-card-home {
+    /* margin: 90px 0; */
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero-card-home .title .descriptions div svg {
+    height: 20px;
+  }
+
+  .hero-card-home .title .descriptions div {
+    justify-content: center;
+  }
+
+  .main-container {
+    padding: 0;
+    margin: 80px auto 20px auto;
     border: 1px solid black;
+    width: 100%;
+  }
+
+  /* Section 2 */
+  .section-2 {
+    margin: 0;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card {
+    margin: 10px auto;
+  }
+
+  /* Section 3 */
+
+  .container-sec3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .container-img-cdn {
+    width: 100%;
+    border: 1px solid black;
+    height: 100%;
+    margin: 0;
   }
 }
