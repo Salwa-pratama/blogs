@@ -1,22 +1,22 @@
 <footer id="footer">
     <div class="container-cdn-footer">
-        <div class="content1">
+        <div class="content1 content-footer">
             <h1>My<span>Blogs</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente minus adipisci nisi odio explicabo dolorem, quod recusandae nesciunt quae. </p>
         </div>
-        <div class="content2">
+        <div class="content2 content-footer">
             <p>Side Nav</p>
             <a href="">Home</a>
             <a href="">Blogs</a>
             <a href="">Feedback</a>
         </div>
-        <div class="content3">
+        <div class="content3 content-footer">
             <p>Support</p>
             <a href="">Contact</a>
             <a href="">Return</a>
             <a href="">FAQ</a>
         </div>
-        <div class="content4">
+        <div class="content4 content-footer">
             <p>Socials</p>
             <ul>
                 <li><i data-feather="github"></i></li>

@@ -146,7 +146,7 @@ body {
 .container-sec3 .second-cdn {
   position: relative;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
-  margin: 5px;
+  padding: 10px;
   background-size: cover;
   border-radius: 10px;
   overflow: hidden;
@@ -302,13 +302,13 @@ body {
 /* ================ Footer Style Start ================   */
 
 footer {
-  margin: var(--marginAllContent);
   background-color: black;
+  width: 100%;
   color: white;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border-radius: 10px;
+  width: 100%;
 }
 
 .container-cdn-footer {
@@ -330,7 +330,7 @@ footer {
 .content3,
 .content4 {
   width: 40%;
-  border: 1px solid white;
+
   margin: 10px;
   padding: 10px;
 }
@@ -634,6 +634,14 @@ footer {
     width: 100%;
     padding: 0;
   }
+
+  .image-item {
+    border-radius: 0;
+  }
+
+  .image-item img {
+    border-radius: 0;
+  }
   .hero-card-home .title {
     display: flex;
     flex-direction: column;
@@ -678,12 +686,17 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0;
   }
   .card {
     margin: 10px auto;
+    width: 100%;
+    margin: 20px 0;
   }
 
-  /* Section 3 */
+  .container-img-card img {
+    border-radius: 0;
+  }
 
   .container-sec3 {
     display: flex;
@@ -696,5 +709,46 @@ footer {
     border: 1px solid black;
     height: 100%;
     margin: 0;
+  }
+
+  .desc-hero-sec2 {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .desc-hero-sec2 h1 {
+    font-size: 23px;
+  }
+
+  .desc-hero-sec2 p {
+    font-size: 15px;
+  }
+
+  /* Section 3 Home Responsive */
+  .container-sec3 .container-img-cdn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .container-sec3 .second-cdn {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  /* Footer Responsive */
+
+  footer .container-cdn-footer {
+    flex-wrap: wrap;
+  }
+
+  .content-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  .watermark {
+    font-size: 10px;
+    margin-top: 20px;
   }
 }

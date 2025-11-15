@@ -23,7 +23,7 @@
         </div>
         <div class="second-cdn container-img-cdn">
             <h1>Find Your Best Experiences ....</h1>
-            <!-- <img src="https://images.unsplash.com/photo-1594568284297-7c64464062b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt=""> -->
+            <!-- <img src="https://ima/ges.unsplash.com/photo-1594568284297-7c64464062b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt=""> -->
         </div>
     </div>
 </section>
