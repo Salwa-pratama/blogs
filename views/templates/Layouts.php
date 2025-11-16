@@ -1,10 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title><?= $title ?? "MyBlogs" ?></title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/<?=$page?>.css">
+    <link rel="stylesheet" href="styles/universal.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
